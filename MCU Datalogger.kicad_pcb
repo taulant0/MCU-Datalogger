@@ -588,7 +588,7 @@
       (net 25 "Net-(U2-Pad2)") (pinfunction "1") (pintype "passive") (tstamp 4f4bc660-5969-48f7-910e-e351f9c841c9))
     (pad "2" smd rect (at 2.6 0 90) (size 3.5 2.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 24 "Net-(U2-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 5fca448e-62e1-4864-bba6-63944ec63f57))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-2Pin_6.0x3.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1135,7 +1135,7 @@
       (net 4 "Net-(C3-Pad2)") (pinfunction "1") (pintype "passive") (tstamp b92af6c1-374d-4c08-b2b5-76af525c5462))
     (pad "2" smd rect (at 2.6 0 180) (size 3.5 2.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "Net-(C2-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 24733528-a119-47a1-a613-31ea440b2423))
-    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-2Pin_6.0x3.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

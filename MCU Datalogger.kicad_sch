@@ -799,7 +799,6 @@
     )
   )
 
-
   (junction (at 253.1618 33.02) (diameter 0) (color 0 0 0 0)
     (uuid 1878f84a-aea8-4e48-8cc7-b1dc6d3ba3e0)
   )
@@ -1430,11 +1429,11 @@
     (uuid e2b4a775-c354-4548-b871-fed28f96ed23)
   )
 
-  (label "SCK" (at 37.719 46.5328 0)
+  (label "SCL" (at 37.719 46.5328 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0cb06db2-8e77-464c-a766-d5662fd60b29)
   )
-  (label "SCK" (at 190.9826 76.2 0)
+  (label "SCL" (at 190.9826 76.2 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0ea37352-98f5-4421-ae00-a260f9a03511)
   )
@@ -1514,7 +1513,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c8d2593-62b8-4953-8cb6-61444ce42679)
   )
-  (label "SCK" (at 51.6382 149.0726 0)
+  (label "SCL" (at 51.6382 149.0726 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e78c59c-fbb0-4fcc-9702-93e1b406962d)
   )
@@ -1598,9 +1597,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid dfbdd5ab-5ff7-4a23-a07d-07eccb5d6a5e)
   )
-  (label "SCK" (at 96.5454 155.4226 0)
+  (label "SCL" (at 96.5454 155.4226 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e4670f66-1d9d-45cd-a322-1106bc822eb7)
+  )
+  (label "SCL" (at 168.4782 127.381 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid e8626acb-5eda-4f88-bc0c-dd2f461640c1)
   )
   (label "SDA" (at 108.8644 155.2956 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1622,7 +1625,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f8f5f01c-4bf7-4c4b-9102-a82c09b07a50)
   )
-  (label "SCK" (at 84.4042 148.7678 0)
+  (label "SCL" (at 84.4042 148.7678 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fb0140c4-be46-40d1-abfd-1e13e3cb9fb3)
   )
@@ -2440,6 +2443,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid e7fb6c2e-9c85-404d-b121-8ddadc5270d0)
     )
+    (pin "SCL" passive (at 168.4782 127.381 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid ad85b214-d6fd-49f3-a456-76e633f809ba)
+    )
   )
 
   (sheet_instances
@@ -2520,17 +2527,17 @@
     (path "/ea118688-6cef-461e-973d-5e0c5bb0321a"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.1mm")
     )
-    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/655e3b4f-9164-467b-be5c-8412b1ba3bc3"
-      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/35453001-c791-4af9-b30f-0e1476103394"
+      (reference "J?") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
-    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/d8f39dba-e152-4788-9498-f518c1ce42f1"
-      (reference "J2") (unit 1) (value "Conn_01x09_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
+    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/45f3ee1c-49c2-40a8-8c61-15640f290546"
+      (reference "J?") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
-    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/3a2c9243-fcbd-4b43-95f2-7f23cfb4b426"
-      (reference "J3") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/c818d6fa-4612-4318-931d-9f096e9c4e85"
+      (reference "J?") (unit 1) (value "Conn_01x09_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
-    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/eb7c15ec-2c7f-4621-8bbb-1c40e4541887"
-      (reference "J4") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
+    (path "/1c9fce4d-fc04-4198-a681-89c79bd95e1b/e3dae971-9362-4f9b-8843-511fd47055b7"
+      (reference "J?") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/f9104431-c12b-4262-85a4-3fb81a6448ea"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
